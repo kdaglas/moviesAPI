@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "nodemon src/myapp.js",
+    "dev": "env-cmd -f ./.env nodemon src/myapp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Douglas Kato",

@@ -1,4 +1,4 @@
-db.movies.insert([
+const movies = [
   {
     title: 'John Wick',
     genre: 'action',
@@ -34,4 +34,6 @@ db.movies.insert([
     description: 'A group of gifted kids are sheltered by another gifted lady',
     image: 'none',
   },
-]);
+];
+
+module.exports = movies;
